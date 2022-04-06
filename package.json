@@ -31,5 +31,6 @@
     "index.js",
     "index.d.ts",
     "readme.md"
-  ]
+  ],
+  "type":"module"
 }

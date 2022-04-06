@@ -1,6 +1,6 @@
 'use strict'
 
-exports.parse = function (source, transform) {
+export function parse (source, transform) {
   return new ArrayParser(source, transform).parse()
 }
 

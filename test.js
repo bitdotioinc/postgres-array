@@ -1,7 +1,7 @@
 'use strict'
 
-const test = require('tape')
-const array = require('./')
+import test from 'tape'
+import * as array from './index.js'
 
 test(function (t) {
   const string = array.parse
